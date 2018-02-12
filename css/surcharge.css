@@ -1,0 +1,121 @@
+
+body {
+	font-family: 'Chau Philomene One', sans-serif;
+	color: #555d5e;
+}
+
+h2, main h1 {
+    font-family: 'Lobster Two', serif;
+}
+
+main h1 {
+	color: #F7A535;
+}
+
+header {
+	background:  #07EDCA url("../img/bg.png");
+}
+
+nav {
+	font-family: 'Old Standard TT', serif;
+	background: linear-gradient(to right, rgba(101,118,124,1) 0%,rgba(96,108,136,1) 53%,rgba(78,86,104,1) 100%);
+}
+
+.nav-link {
+	color: white;
+	text-transform: uppercase;
+}
+
+.nav-link:hover {
+	color: #F7A535 !important;
+}
+
+.nav_fixed {
+	position: fixed;
+	z-index: 99;
+	top : 0;
+	width: 100%;
+}
+
+.cpt {
+	background-color: #F5F5F5;
+	width: 30%;
+}
+
+section#competences i {
+	background-color: orange;
+	color: white;
+	padding: 20px;
+	margin: 30px;
+	font-size: 2.5rem;
+	}
+
+section#diplomes button {
+	color: white;
+}
+
+section#diplomes .card:first-child {
+	background-color: #67D3BE;
+}
+
+section#diplomes .card:nth-child(2) {
+	background-color: #919098; 
+}
+
+section#diplomes .card:nth-child(3) {
+	background-color: #ADDADF;
+}
+
+section#projets article:first-child {
+	background: url("../img/oishi.png") center no-repeat;
+	background-size: cover;
+	padding: 20px;
+	position: relative;
+}
+
+/*.absolut {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background-color: rgba(255, 255, 255, 0.7); 
+}*/
+
+section#projets article:nth-child(2) {
+	background: url("../img/sonic.png") center no-repeat;
+	background-size: cover;
+	padding: 20px;
+}
+
+section#projets article:nth-child(3) {
+	background: url("../img/donjon.png") center no-repeat;
+	background-size: cover;
+	padding: 20px;
+}
+
+.animated, .animated2, .animated3, .animated4 {
+  animation: interest 10s ease alternate infinite;
+}
+
+.animated2 {
+	animation-delay: 1.5s;
+}
+
+.animated3 {
+	animation-delay: 2.5s;
+}
+
+.animated4 {
+	animation-delay: 3.5s;
+}
+
+@keyframes interest {
+  90% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1.4);
+  }
+}
+
